@@ -8,6 +8,7 @@ const SELECTORS = {
   daftOutput: '#daft-output',
   myhome: '#myhome-total',
   myhomeLastUpdated: '#myhome-last-updated',
+  myhomeOutput: '#myhome-output',
 }
 
 async function loadFromWebsiteDaft(){
@@ -23,6 +24,6 @@ async function loadFromWebsiteDaft(){
 
   // render to list
   data.adverts.forEach((advert) => {
-    document.querySelector(SELECTORS.daftOutput).innerHTML += `<li>€${advert.price} per month - ${advert.address}</li>`;
+    document.querySelector(SELECTORS.daftOutput).innerHTML += `<li>€${advert.price} per month - ${advert.address} <a href="${advert.url}" target="_blank">View</a></li>`;
   });
 }

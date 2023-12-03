@@ -187,6 +187,7 @@ export class Daft {
 
           counties[countyString].push({
             address: listing.title,
+            url: `https://www.daft.ie/for-rent/absolute.rehab/${listing.id}`, // lil watermark there
             price: Daft.getMonthlyPrice(listing.price).toFixed(0),
           });
           
