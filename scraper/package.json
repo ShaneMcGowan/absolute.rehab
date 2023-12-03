@@ -1,0 +1,19 @@
+{
+  "name": "scraper",
+  "version": "0.0.1",
+  "description": "API Scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  },
+  "author": "Shane McGowan",
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "axios": "^0.21.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "section": "residential-to-rent",
+  "filters": [
+    {
+      "name": "adState",
+      "values": [
+        "published"
+      ]
+    }
+  ],
+  "andFilters": [],
+  "ranges": [],
+  "paging": {
+    "from": "0",
+    "pageSize": "20"
+  },
+  "geoFilter": {},
+  "terms": ""
+}
