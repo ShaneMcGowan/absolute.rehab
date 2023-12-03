@@ -1,3 +1,4 @@
+import { Data } from "../../model/data.model";
 import { DaftResponse } from "./daft-response.model";
 import { DaftConstants } from "./daft.constants";
 
@@ -226,7 +227,12 @@ export class Daft {
 
     console.log(colors.green());
 
-    const dataString = JSON.stringify(counties[selectedCounty]);
+    let data: Data = {
+      adverts: counties[selectedCounty],
+      lastUpdated: new Date()
+    };
+
+    const dataString = JSON.stringify(data);
     fs.writeFileSync('../data/daft.json', dataString);
   }
 
