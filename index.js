@@ -22,8 +22,11 @@ async function loadFromWebsiteDaft(){
   document.querySelector(SELECTORS.daft).innerHTML = data.adverts.length;
   document.querySelector(SELECTORS.daftLastUpdated).innerHTML = data.lastUpdated.toLocaleString();
 
+  // sort by price - highest to lowest
+  let adverts = data.adverts.sort((a, b) => b.price - a.price);
+
   // render to list
-  data.adverts.forEach((advert) => {
+  adverts.forEach((advert) => {
     document.querySelector(SELECTORS.daftOutput).innerHTML += `<li>€${advert.price} per month - ${advert.address} <a href="${advert.url}" target="_blank">View</a></li>`;
   });
 }
