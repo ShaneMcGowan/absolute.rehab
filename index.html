@@ -5,6 +5,7 @@ Absolute Rehab
 </title>
 <script type="module" src="./index.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
 <table>
@@ -12,7 +13,7 @@ Absolute Rehab
   <p>Feel free to contact me at <a href="mailto:rehab@shanemcgowan.com">rehab@shanemcgowan.com</a></p>
   <tr>
     <td>Website</td>
-    <td>Total</td>
+    <td>Total Listings</td>
     <td>Last Updated</td>
   </tr>
   <tr>
@@ -20,20 +21,20 @@ Absolute Rehab
     <td id="daft-total">loading...</td>
     <td id="daft-last-updated">loading...</td>
   </tr>
-  <tr>
+  <tr class="hidden">
     <td>MyHome</td>
-    <td id="myhome-total">coming soon</td>
-    <td id="myhome-last-updated">coming soon</td>
+    <td id="myhome-total"></td>
+    <td id="myhome-last-updated"></td>
   </tr>
-  <tr>
+  <tr class="hidden">
     <td>Rent.ie</td>
-    <td id="rentie-total">coming less soon</td>
-    <td id="rentie-last-updated">coming less soon</td>
+    <td id="rentie-total"></td>
+    <td id="rentie-last-updated"></td>
   </tr>
-  <tr>
+  <tr class="hidden">
     <td>Property.ie</td>
-    <td id="propertyie-total">coming less soon</td>
-    <td id="propertyie-last-updated">coming less soon</td>
+    <td id="propertyie-total"></td>
+    <td id="propertyie-last-updated"></td>
   </tr>
 </table>
 
@@ -51,6 +52,10 @@ Absolute Rehab
 <h2>Property.ie</h2>
 <p>coming less soon</p>
 <ul id="propertyie-output"></ul>
+
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7a08e9fa812a45e1ac388c54804b269d"}'></script>
+<!-- End Cloudflare Web Analytics -->
 
 </body>
 </html>
