@@ -18,13 +18,17 @@ jobs:
         node-version: 20
     
     - name: Install Dependencies
-      run: cd scraper && npm install
+      working-directory: scraper
+      run: npm install
 
     - name: Fetch Data
+      working-directory: scraper
       run: npm start daft update sligo
     
     - name: Process Data
+      working-directory: scraper
       run: npm start daft process sligo
 
     - name: View Data
+      working-directory: scraper
       run: npm start daft view sligo
