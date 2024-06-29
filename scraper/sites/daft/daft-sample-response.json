@@ -1,0 +1,55 @@
+breadcrumbs: [{displayValue: "Home", url: "/"},…]
+canonicalUrl: "https://www.daft.ie/property-for-rent/ireland"
+dfpTargetingValues: {distilledBrand: ["daft"], section: ["residential-to-rent"], pageType: ["listings"],…}
+listings: [{
+  listing: {id: 1443907, title: "Capital Dock Residence, Grand Canal, Dublin 2",…}
+  abbreviatedPrice: "€2,970+"
+  ber: {rating: "A2A3"}
+  category: "Rent"
+  daftShortcode: "9162025"
+  featuredLevel: "FEATURED"
+  id: 1443907
+  media: {
+  hasBrochure: false
+  hasVideo: true
+  hasVirtualTour: false
+  images: [{
+    size72x52: "https://photos.cdn.dsch.ie/ZWMzYWI4MWJmZDBiNTMzZThhNGIxOTRiYzY0ODBhMzdtQeNdMz4ye-PxDpIRhKc0aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvZC9hZDYwMTEwYTBkMTlkMDM2NTFlNGVmZDEzZDc0YzM2Ny5qcGd8fHx8fHw3Mng1Mnx8fHw="
+    size300x200: "https://photos.cdn.dsch.ie/MDU2MTNlODg3ZTBjY2VmNjBhMmYwMGE2NDUyNjQ0OWM27gJftORH5xHpOLLgKZe8aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvZC9hZDYwMTEwYTBkMTlkMDM2NTFlNGVmZDEzZDc0YzM2Ny5qcGd8fHx8fHwzMDB4MjAwfHx8fA=="
+    size320x280: "https://photos.cdn.dsch.ie/ZDg1MmFkYTRhZDlkZmNiMTkxN2Y5NjY1NjQ2NTY3MDlzzS9qwKfbOYOIFaN5MZ5EaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvZC9hZDYwMTEwYTBkMTlkMDM2NTFlNGVmZDEzZDc0YzM2Ny5qcGd8fHx8fHwzMjB4MjgwfHx8fA=="
+    size360x240: "https://photos.cdn.dsch.ie/ZGJiODU3MGJlZGY2NWQ3NzBjNzEzYmNlNGE2NzYxYjB9ITssoKbc9shUyPNPxRS3aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvZC9hZDYwMTEwYTBkMTlkMDM2NTFlNGVmZDEzZDc0YzM2Ny5qcGd8fHx8fHwzNjB4MjQwfHx8fA=="
+    size400x300: "https://photos.cdn.dsch.ie/ZThjZmFhODBhZjRhODgzMmNkYzFiZGUyZmU1MGQ0NjnNc9jboWcC9usX7qAEUrbwaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvZC9hZDYwMTEwYTBkMTlkMDM2NTFlNGVmZDEzZDc0YzM2Ny5qcGd8fHx8fHw0MDB4MzAwfHx8fA=="
+    size600x600: "https://photos.cdn.dsch.ie/MTE4MGUxZDkwYjkxNjgzMmU1NDVmOGMxNDc0N2RlNmas7cIEq57koegfxST2uyjPaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvZC9hZDYwMTEwYTBkMTlkMDM2NTFlNGVmZDEzZDc0YzM2Ny5qcGd8fHw2MDB8fHx8fHx8"
+    size680x392: "https://photos.cdn.dsch.ie/Mzg5NTRiNDc1MzE0NTNiNWNiNzFkMGM4MmNkM2IzZTatCYl81p-4S6P8YIj_3VPMaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvZC9hZDYwMTEwYTBkMTlkMDM2NTFlNGVmZDEzZDc0YzM2Ny5qcGd8fHx8fHw2ODB4MzkyfHx8fA=="
+    size720x480: "https://photos.cdn.dsch.ie/Y2U0ODU1NzAzMDU1NTlmNDkwZmU1NmJjZjUxMGJmNGRFCbUGACNKMDIAVXythXh5aHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1L2EvZC9hZDYwMTEwYTBkMTlkMDM2NTFlNGVmZDEzZDc0YzM2Ny5qcGd8fHx8fHw3MjB4NDgwfHx8fA=="
+  }]
+  totalImages: 26
+  }
+  numBedrooms: "2 & 3 bed"
+  pageBranding: {
+    backgroundColour: "#054573"
+    rectangleLogo: "https://photos.cdn.dsch.ie/OTg5ZWFlNDA5NGE1ZTkzNTRiODNjOGRlOGUyMmViYzRUjUGKEhEsOySno43QKj1iaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85ODU1OWU4NGEzZTc0ZmEwOWI1MTJiMDRhODM0ODJkY19zdGFuZGFyZC5qcGd8fDgwfHx8fHx8fHw="
+    squareLogo: "https://photos.cdn.dsch.ie/NmY5MTZmYTQ3MGQzNWUzYjg5NjIyNWFhNmZiMDFkMzn_8NzyAUxknT0ajfc210HmaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzEvMS8xMTg1OGEzZGQ5OTkzOTQzZDViN2NlOTA4MWQxODBmNi5qcGd8fHwxMjB8fHx8fHx8"
+    squareLogos: [,…]
+    0: "https://photos.cdn.dsch.ie/NmY5MTZmYTQ3MGQzNWUzYjg5NjIyNWFhNmZiMDFkMzn_8NzyAUxknT0ajfc210HmaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzEvMS8xMTg1OGEzZGQ5OTkzOTQzZDViN2NlOTA4MWQxODBmNi5qcGd8fHwxMjB8fHx8fHx8"
+    standardLogo: "https://photos.cdn.dsch.ie/OTg5ZWFlNDA5NGE1ZTkzNTRiODNjOGRlOGUyMmViYzRUjUGKEhEsOySno43QKj1iaHR0cHM6Ly9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9tZWRpYW1hc3Rlci1zM2V1LzkvOC85ODU1OWU4NGEzZTc0ZmEwOWI1MTJiMDRhODM0ODJkY19zdGFuZGFyZC5qcGd8fDgwfHx8fHx8fHw="
+  }
+  point: {type: "Point", coordinates: [-6.231118982370589, 53.344905963613485]}
+  price: "From €2,970 per month"
+  propertyType: "Apartments"
+  prs: {totalUnitTypes: 5,…}
+  publishDate: 1617738623000
+  saleType: ["To Let"]
+  sections: ["Property", "Private Rental Sector", "Apartments"]
+  seller: {sellerId: 9601, name: "Eoin Grant", phone: "01 9073777",…}
+  seoFriendlyPath: "/for-rent/capital-dock-residence-grand-canal-dublin-2/1443907"
+  seoTitle: "Capital Dock Residence, Grand Canal, Dublin 2"
+  state: "PUBLISHED"
+  title: "Capital Dock Residence, Grand Canal, Dublin 2"
+  savedAd: false
+
+}]
+mapView: false
+paging: {totalPages: 202, currentPage: 1, nextFrom: 20, previousFrom: 0, displayingFrom: 1, displayingTo: 20,…}
+savedSearch: false
+showcaseListings: []
