@@ -18,8 +18,7 @@ jobs:
         node-version: 16
     
     - name: Install Dependencies
-      run: cd scraper
-      run: npm install
+      run: cd scraper && npm install
 
     - name: Fetch Data
       run: npm start daft update sligo
