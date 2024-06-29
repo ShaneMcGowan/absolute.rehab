@@ -1,3 +1,72 @@
+:root {
+  --colour-red: #e63946;
+  --colour-white: #f1faee;
+  --colour-black: #1d3557;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hidden {
   display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pt-0-5 {
+  padding-top: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ellipsis-text {
+  overflow: hidden;
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+}
+
+.border-top {
+  border-top: 1px solid var(--colour-black);
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--colour-black);
 }

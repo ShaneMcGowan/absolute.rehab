@@ -8,9 +8,10 @@ Absolute Rehab
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<table>
-  <h1>Houses for rent in Sligo</h1>
-  <p>Feel free to contact me at <a href="mailto:rehab@shanemcgowan.com">rehab@shanemcgowan.com</a></p>
+<div class="flex align-items-center justify-content-center pt-1 pb-1">
+  <h1>Property for rent in Sligo</h1>
+</div>
+<table class="hidden">
   <tr>
     <td>Website</td>
     <td>Total Listings</td>
@@ -19,7 +20,6 @@ Absolute Rehab
   <tr>
     <td>Daft</td>
     <td id="daft-total">loading...</td>
-    <td id="daft-last-updated">loading...</td>
   </tr>
   <tr class="hidden">
     <td>MyHome</td>
@@ -38,20 +38,41 @@ Absolute Rehab
   </tr>
 </table>
 
-<h2>Daft</h2>
-<ul id="daft-output"></ul>
+<div class="flex align-items-center p-1">
+  <h2>Daft</h2>
+  <span class="ml-auto" id="daft-last-updated"></span>
+</div>
+<ul class="border-top" id="daft-output"></ul>
 
-<h2>MyHome</h2>
-<p>coming soon</p>
+<!-- MyHome -->
+<div class="flex align-items-center pt-2">
+  <h2>MyHome</h2>
+  <span class="ml-auto" id="daft-last-updated"></span>
+</div>
+<p class="pt-1">coming soon</p>
 <ul id="myhome-output"></ul>
 
-<h2>Rent.ie</h2>
-<p>coming less soon</p>
+<!-- Rent.ie -->
+<div class="flex align-items-center pt-2">
+  <h2>Rent.ie</h2>
+  <span class="ml-auto" id="daft-last-updated"></span>
+</div>
+<p class="pt-1">coming soon</p>
 <ul id="rentie-output"></ul>
 
-<h2>Property.ie</h2>
-<p>coming less soon</p>
+<!-- Property.ie -->
+<div class="flex align-items-center pt-2">
+  <h2>Property.ie</h2>
+  <span class="ml-auto" id="daft-last-updated"></span>
+</div>
+<p class="pt-1">coming soon</p>
 <ul id="propertyie-output"></ul>
+
+<div class="flex align-items-center justify-content-center pt-2 pb-1">
+  <p>
+    Feel free to contact me at <a href="mailto:rehab@shanemcgowan.com">rehab@shanemcgowan.com</a>
+  </p>
+</div>
 
 <!-- Cloudflare Web Analytics -->
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7a08e9fa812a45e1ac388c54804b269d"}'></script>
